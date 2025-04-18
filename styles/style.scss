@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@500&display=swap');
+
+// scss import
+@import"./variables";
+@import"./responsive";
+@import"./header";
+@import"./home";
+@import"./about";
+@import"./favorite";
+@import"./fav";
+@import"./model";
+@import"./sponsor";
+@import"./footer";
+
+
+
+
+
+// Css Reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+h1,h2{
+    color: $white-color;
+    
+}
+
+.section-title{
+    text-align: center;
+ 
+    font-size: 30px;
+}
+
+body{
+    background-color: $body-color;
+    color: $text-color;
+    font-size: $normal-font-size;
+    font-family: $body-font;
+}
+
+section{
+    padding: 80px 16px;
+}
+
+.button{
+    background-image: $gradient-color;
+    color: $white-color;
+    padding: 20px 15px;
+    border-radius: 64px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: $font-semi-bold;
+    cursor: pointer;
+    transition: all .5s ease;
+
+    i{
+        margin-left: 8px;
+        color: $first-color;
+        font-size: 32px;
+    }
+    &:hover{
+        box-shadow: 0 12px 32px #271208;
+    }
+
+  
+        
+        
+           
+            
+
+    
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
